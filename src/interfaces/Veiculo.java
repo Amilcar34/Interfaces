@@ -6,8 +6,8 @@ public interface Veiculo {
 	String no = "no";
 
 	void especificaPuertas(int puertas);
-	
 	int devuelve_puertas();
 	
-	
+	void especificaRuedas (int ruedas);
+	int devuelveRuedas ();
 }

@@ -4,7 +4,8 @@ import interfaces.Veiculo;
 
 public abstract class Veiculos implements Veiculo{
 
-	int cantidadPuertas;
+	protected int cantidadPuertas;
+	protected int cantidadRuedas;
 
 	public Veiculos(){
 		int ruedas = 4;
@@ -21,6 +22,19 @@ public abstract class Veiculos implements Veiculo{
 		// TODO Auto-generated method stub
 		return (Integer) cantidadPuertas;
 	}
+	
+	
+	@Override
+	public void especificaRuedas (int ruedas) {
+		this.cantidadRuedas = ruedas;
+	}
+	
+	@Override
+	public int devuelveRuedas(){
+		return cantidadRuedas;
+	}
+	
+	
 	
 	
 	

@@ -9,7 +9,7 @@ public class Main {
 		
 		auto1.especificaPuertas(5);
 		
-		System.out.println(auto1.devuelve_puertas());
+		System.out.println(auto1.devuelve_puertas() + " " + auto1.cantidadRuedas);
 	}
 
 }
