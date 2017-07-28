@@ -1,6 +1,6 @@
 package clases;
 
-public class Auto extends Veiculos {
+public final class Auto extends Veiculos {
 
 	
 	
@@ -9,6 +9,8 @@ public class Auto extends Veiculos {
 		
 		this.cantidadRuedas = 4;
 	}
+
+
 	
 	
 	

@@ -10,4 +10,7 @@ public interface Veiculo {
 	
 	void especificaRuedas (int ruedas);
 	int devuelveRuedas ();
+	
+	void especificaMotor (double cilindrada);
+	double devuelveMotor ();
 }

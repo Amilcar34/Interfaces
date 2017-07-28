@@ -1,14 +1,22 @@
 package clases;
 
-public class Camion extends Veiculos {
+public final class Camion extends Veiculos {
 	
-	boolean acoplado;
+	boolean acopladoDoble;
+
 	
-	public Camion () {
+	public Camion (boolean acopladoDoble, int cantRuedas, double cilindrada) {
 		super();
 		
+		this.cantidadPuertas = 2;
+		this.acopladoDoble = acopladoDoble;
+		this.cantidadRuedas = cantRuedas;
+		this.cilindrada = cilindrada;
 		
 	}
+	
+	public boolean devuelveAcopladoDoble() {
+		return acopladoDoble;}
 	
 
 }
